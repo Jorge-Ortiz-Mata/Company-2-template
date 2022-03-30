@@ -4,6 +4,10 @@
     background-color: #f5fffd;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .headerIndex{
     height: 700px;
 }
@@ -14,4 +18,34 @@
 
 .background_header_index, .background_header_index a{
     color: #ffffff;
+}
+
+.fixed_nav_bar_menu{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    animation-name: user_animation;
+    animation-duration: 1s;
+}
+
+@keyframes user_animation{
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+#seeMoreButton{
+    background-color: #f5fffd;
+    color: #315d54;
+    border: 0px;
+    border-radius: 30px;
+    font-weight: 500;
+}
+
+#seeMoreButton:hover{
+    background-color: #4fd4b9;
+    color: #f5fffd;
 }
