@@ -1,0 +1,17 @@
+*, body{
+    margin: 0;
+    padding: 0;
+    background-color: #f5fffd;
+}
+
+.headerIndex{
+    height: 700px;
+}
+
+.background_header_index{
+    background-color: #315d54;
+}
+
+.background_header_index, .background_header_index a{
+    color: #ffffff;
+}
