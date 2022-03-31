@@ -8,6 +8,10 @@ html{
     scroll-behavior: smooth;
 }
 
+.linkNavMenu:hover{
+    color: #4fd4b9;
+}
+
 .headerIndex{
     height: 700px;
 }
