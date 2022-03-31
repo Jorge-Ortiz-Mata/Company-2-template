@@ -49,3 +49,23 @@ html{
     background-color: #4fd4b9;
     color: #f5fffd;
 }
+
+.image_back_1, .image_back_2{
+    width: 400px;
+    height: 400px;
+    background-position: center;
+    background-blend-mode: soft-light;
+    background-color: #000000cf;
+    color: #ffffff;
+}
+
+.image_back_1 p, .image_back_2 p, .image_back_1 p b, .image_back_2 p b{
+    background: none;
+}
+
+.image_back_1{
+    background-image: url(./media/city-1.jpg);    
+}
+.image_back_2{
+    background-image: url(./media/city-2.jpg);
+}
